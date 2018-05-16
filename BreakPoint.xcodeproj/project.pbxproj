@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47E8718220AB426B00E79C21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47E8718120AB426B00E79C21 /* GoogleService-Info.plist */; };
+		47E8718420AB4A7100E79C21 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718320AB4A7100E79C21 /* DataService.swift */; };
 		47FE6A2320A24CCF003CBD9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2220A24CCF003CBD9B /* AppDelegate.swift */; };
 		47FE6A2520A24CCF003CBD9B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2420A24CCF003CBD9B /* FirstViewController.swift */; };
 		47FE6A2720A24CCF003CBD9B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2620A24CCF003CBD9B /* SecondViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		47E8718120AB426B00E79C21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47E8718320AB4A7100E79C21 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		47FE6A1F20A24CCF003CBD9B /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FE6A2220A24CCF003CBD9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47FE6A2420A24CCF003CBD9B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		47E8717B20AB225C00E79C21 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				47E8718320AB4A7100E79C21 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				47FE6A2720A24CCF003CBD9B /* SecondViewController.swift in Sources */,
 				47FE6A2320A24CCF003CBD9B /* AppDelegate.swift in Sources */,
 				47FE6A2520A24CCF003CBD9B /* FirstViewController.swift in Sources */,
+				47E8718420AB4A7100E79C21 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
