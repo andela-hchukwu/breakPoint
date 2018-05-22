@@ -13,6 +13,7 @@
 		47E8718A20AF34F100E79C21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718920AF34F100E79C21 /* LoginViewController.swift */; };
 		47E8718C20AF355C00E79C21 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718B20AF355C00E79C21 /* InsetTextField.swift */; };
 		47E8718E20AF3AAA00E79C21 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718D20AF3AAA00E79C21 /* ShadowView.swift */; };
+		47E8719020AF692800E79C21 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718F20AF692800E79C21 /* AuthService.swift */; };
 		47FE6A2320A24CCF003CBD9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2220A24CCF003CBD9B /* AppDelegate.swift */; };
 		47FE6A2520A24CCF003CBD9B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2420A24CCF003CBD9B /* FirstViewController.swift */; };
 		47FE6A2720A24CCF003CBD9B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2620A24CCF003CBD9B /* SecondViewController.swift */; };
@@ -29,6 +30,7 @@
 		47E8718920AF34F100E79C21 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		47E8718B20AF355C00E79C21 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		47E8718D20AF3AAA00E79C21 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		47E8718F20AF692800E79C21 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		47FE6A1F20A24CCF003CBD9B /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FE6A2220A24CCF003CBD9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47FE6A2420A24CCF003CBD9B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				47E8718320AB4A7100E79C21 /* DataService.swift */,
+				47E8718F20AF692800E79C21 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				47E8718A20AF34F100E79C21 /* LoginViewController.swift in Sources */,
 				47FE6A2720A24CCF003CBD9B /* SecondViewController.swift in Sources */,
 				47FE6A2320A24CCF003CBD9B /* AppDelegate.swift in Sources */,
+				47E8719020AF692800E79C21 /* AuthService.swift in Sources */,
 				47E8718820AF2B9800E79C21 /* AuthViewController.swift in Sources */,
 				47E8718E20AF3AAA00E79C21 /* ShadowView.swift in Sources */,
 				47FE6A2520A24CCF003CBD9B /* FirstViewController.swift in Sources */,
