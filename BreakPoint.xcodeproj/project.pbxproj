@@ -14,6 +14,8 @@
 		47E8718C20AF355C00E79C21 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718B20AF355C00E79C21 /* InsetTextField.swift */; };
 		47E8718E20AF3AAA00E79C21 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718D20AF3AAA00E79C21 /* ShadowView.swift */; };
 		47E8719020AF692800E79C21 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718F20AF692800E79C21 /* AuthService.swift */; };
+		47FD591620CACA1A00DC7DBE /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD591520CACA1A00DC7DBE /* MeViewController.swift */; };
+		47FD591820CAF07700DC7DBE /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD591720CAF07700DC7DBE /* CreatePostViewController.swift */; };
 		47FE6A2320A24CCF003CBD9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2220A24CCF003CBD9B /* AppDelegate.swift */; };
 		47FE6A2520A24CCF003CBD9B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2420A24CCF003CBD9B /* FeedViewController.swift */; };
 		47FE6A2720A24CCF003CBD9B /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE6A2620A24CCF003CBD9B /* GroupsViewController.swift */; };
@@ -31,6 +33,8 @@
 		47E8718B20AF355C00E79C21 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		47E8718D20AF3AAA00E79C21 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		47E8718F20AF692800E79C21 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		47FD591520CACA1A00DC7DBE /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		47FD591720CAF07700DC7DBE /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		47FE6A1F20A24CCF003CBD9B /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FE6A2220A24CCF003CBD9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47FE6A2420A24CCF003CBD9B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				47FE6A2420A24CCF003CBD9B /* FeedViewController.swift */,
 				47E8718720AF2B9800E79C21 /* AuthViewController.swift */,
 				47E8718920AF34F100E79C21 /* LoginViewController.swift */,
+				47FD591520CACA1A00DC7DBE /* MeViewController.swift */,
+				47FD591720CAF07700DC7DBE /* CreatePostViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47FD591820CAF07700DC7DBE /* CreatePostViewController.swift in Sources */,
+				47FD591620CACA1A00DC7DBE /* MeViewController.swift in Sources */,
 				47E8718A20AF34F100E79C21 /* LoginViewController.swift in Sources */,
 				47FE6A2720A24CCF003CBD9B /* GroupsViewController.swift in Sources */,
 				47FE6A2320A24CCF003CBD9B /* AppDelegate.swift in Sources */,
