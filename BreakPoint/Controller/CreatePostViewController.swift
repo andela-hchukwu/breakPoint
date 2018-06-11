@@ -20,7 +20,7 @@ class CreatePostViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.delegate = self
-
+        sendBtn.bindToKeyboard()
     }
 
     @IBAction func sendBtnWasPressed(_ sender: Any) {
