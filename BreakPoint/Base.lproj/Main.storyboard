@@ -15,6 +15,7 @@
             <string>AvenirNext-Bold</string>
         </array>
         <array key="Menlo.ttc">
+            <string>Menlo-Bold</string>
             <string>Menlo-Regular</string>
         </array>
     </customFonts>
@@ -595,13 +596,53 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="548"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="WrT-P3-gWq">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupCell" rowHeight="100" id="WrT-P3-gWq" customClass="GroupCell" customModule="BreakPoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WrT-P3-gWq" id="Eod-50-2gd">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xJc-l1-kbc">
+                                                    <rect key="frame" x="20" y="48.5" width="335" height="51"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Group description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJg-FX-DXm">
+                                                            <rect key="frame" x="0.0" y="0.0" width="335" height="29.5"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_ members." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZg-35-w8v">
+                                                            <rect key="frame" x="0.0" y="34.5" width="335" height="16.5"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzm-wX-3jb">
+                                                    <rect key="frame" x="23" y="19" width="329" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                    <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="lzm-wX-3jb" firstAttribute="top" secondItem="Eod-50-2gd" secondAttribute="topMargin" constant="8" id="6Dr-Yc-xKY"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="lzm-wX-3jb" secondAttribute="trailing" constant="8" id="BNN-pe-rve"/>
+                                                <constraint firstAttribute="trailing" secondItem="xJc-l1-kbc" secondAttribute="trailing" constant="20" id="Gff-Um-T0l"/>
+                                                <constraint firstAttribute="bottom" secondItem="xJc-l1-kbc" secondAttribute="bottom" id="Qbi-AW-ZGh"/>
+                                                <constraint firstItem="lzm-wX-3jb" firstAttribute="leading" secondItem="Eod-50-2gd" secondAttribute="leadingMargin" constant="8" id="WVe-qH-pFv"/>
+                                                <constraint firstItem="xJc-l1-kbc" firstAttribute="leading" secondItem="Eod-50-2gd" secondAttribute="leading" constant="20" id="dlu-BL-EVA"/>
+                                                <constraint firstItem="xJc-l1-kbc" firstAttribute="top" secondItem="lzm-wX-3jb" secondAttribute="bottom" constant="8" id="wg2-1p-kHN"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="groupDescriptionLbl" destination="EJg-FX-DXm" id="B9s-On-zeR"/>
+                                            <outlet property="groupTitleLbl" destination="lzm-wX-3jb" id="d0f-h2-OO4"/>
+                                            <outlet property="memberCountLbl" destination="PZg-35-w8v" id="qB6-X3-pzi"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -619,10 +660,13 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Groups" image="groups-tabIcon" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="groupsTableView" destination="nil-UY-hOA" id="eiW-ge-Ugq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
         </scene>
         <!--Auth View Controller-->
         <scene sceneID="nfs-JP-pZT">
