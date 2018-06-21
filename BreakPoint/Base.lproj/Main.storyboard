@@ -293,7 +293,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="t6s-ao-qxl">
-                                <rect key="frame" x="0.0" y="103" width="375" height="564"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="499"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="nOh-tN-At1" customClass="GroupFeedCell" customModule="BreakPoint" customModuleProvider="target">
@@ -399,8 +399,8 @@
                             <constraint firstItem="t6s-ao-qxl" firstAttribute="trailing" secondItem="csi-TK-HMu" secondAttribute="trailing" id="Q2J-q3-R8I"/>
                             <constraint firstItem="ItD-u0-UIP" firstAttribute="bottom" secondItem="csi-TK-HMu" secondAttribute="bottom" id="S4P-47-d1d"/>
                             <constraint firstItem="t6s-ao-qxl" firstAttribute="top" secondItem="VLM-x2-huS" secondAttribute="bottom" constant="8" id="T8F-9G-JFD"/>
-                            <constraint firstItem="t6s-ao-qxl" firstAttribute="bottom" secondItem="csi-TK-HMu" secondAttribute="bottom" id="Y3k-y1-CPa"/>
                             <constraint firstItem="1YX-mt-qdq" firstAttribute="top" secondItem="bOT-4i-Rae" secondAttribute="top" id="fNm-J2-8Rq"/>
+                            <constraint firstItem="ItD-u0-UIP" firstAttribute="top" secondItem="t6s-ao-qxl" secondAttribute="bottom" constant="5" id="gdB-KD-Zp6"/>
                             <constraint firstItem="1YX-mt-qdq" firstAttribute="leading" secondItem="csi-TK-HMu" secondAttribute="leading" id="lPD-QK-qfg"/>
                             <constraint firstItem="csi-TK-HMu" firstAttribute="trailing" secondItem="VLM-x2-huS" secondAttribute="trailing" constant="16" id="mTj-4U-mJy"/>
                             <constraint firstItem="1YX-mt-qdq" firstAttribute="trailing" secondItem="csi-TK-HMu" secondAttribute="trailing" id="tM5-GM-AaP"/>
