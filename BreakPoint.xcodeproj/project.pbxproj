@@ -13,6 +13,8 @@
 		4705455C20DB9944006BEB4C /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705455B20DB9944006BEB4C /* GroupFeedCell.swift */; };
 		4705455E20DB99BD006BEB4C /* GroupFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705455D20DB99BD006BEB4C /* GroupFeedViewController.swift */; };
 		4705456020DBB43D006BEB4C /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705455F20DBB43D006BEB4C /* UIViewControllerExt.swift */; };
+		4705456E20DBF0C1006BEB4C /* BreakPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705456D20DBF0C1006BEB4C /* BreakPointTests.swift */; };
+		4705458320DBF299006BEB4C /* MessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705456520DBE9EB006BEB4C /* MessageTests.swift */; };
 		4780045E20D962F10087FB6E /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780045D20D962F10087FB6E /* GroupCell.swift */; };
 		4780046020DAACCB0087FB6E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780045F20DAACCB0087FB6E /* Group.swift */; };
 		47E8718220AB426B00E79C21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47E8718120AB426B00E79C21 /* GoogleService-Info.plist */; };
@@ -35,6 +37,16 @@
 		C894B4E912DBDA7BCF9FC262 /* Pods_BreakPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C541D0044D543607278A3313 /* Pods_BreakPoint.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4705457020DBF0C1006BEB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FE6A1720A24CCF003CBD9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47FE6A1E20A24CCF003CBD9B;
+			remoteInfo = BreakPoint;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		47050C3820D011130032453A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		47050C3A20D164470032453A /* CreateGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +54,13 @@
 		4705455B20DB9944006BEB4C /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		4705455D20DB99BD006BEB4C /* GroupFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedViewController.swift; sourceTree = "<group>"; };
 		4705455F20DBB43D006BEB4C /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		4705456320DBE77C006BEB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4705456520DBE9EB006BEB4C /* MessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTests.swift; sourceTree = "<group>"; };
+		4705456B20DBF0C1006BEB4C /* BreakPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4705456D20DBF0C1006BEB4C /* BreakPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPointTests.swift; sourceTree = "<group>"; };
+		4705456F20DBF0C1006BEB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4705457B20DBF0EB006BEB4C /* BreakPointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPointUITests.swift; sourceTree = "<group>"; };
+		4705457D20DBF0EB006BEB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4780045D20D962F10087FB6E /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		4780045F20DAACCB0087FB6E /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		47E8718120AB426B00E79C21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -69,6 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4705456820DBF0C1006BEB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47FE6A1C20A24CCF003CBD9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +112,33 @@
 				C541D0044D543607278A3313 /* Pods_BreakPoint.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4705456220DBE660006BEB4C /* BreakPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				4705456320DBE77C006BEB4C /* Info.plist */,
+				4705456520DBE9EB006BEB4C /* MessageTests.swift */,
+			);
+			path = BreakPointTests;
+			sourceTree = "<group>";
+		};
+		4705456C20DBF0C1006BEB4C /* BreakPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				4705456D20DBF0C1006BEB4C /* BreakPointTests.swift */,
+				4705456F20DBF0C1006BEB4C /* Info.plist */,
+			);
+			path = BreakPointTests;
+			sourceTree = "<group>";
+		};
+		4705457A20DBF0EB006BEB4C /* BreakPointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4705457B20DBF0EB006BEB4C /* BreakPointUITests.swift */,
+				4705457D20DBF0EB006BEB4C /* Info.plist */,
+			);
+			path = BreakPointUITests;
 			sourceTree = "<group>";
 		};
 		47E8717720AB21E600E79C21 /* Controller */ = {
@@ -147,7 +200,10 @@
 			isa = PBXGroup;
 			children = (
 				47FE6A2120A24CCF003CBD9B /* BreakPoint */,
+				4705456C20DBF0C1006BEB4C /* BreakPointTests */,
+				4705457A20DBF0EB006BEB4C /* BreakPointUITests */,
 				47FE6A2020A24CCF003CBD9B /* Products */,
+				4705456220DBE660006BEB4C /* BreakPointTests */,
 				E54FF67138FDEC8E1BBE1EA4 /* Pods */,
 				0461292CE6DDA612F6C6AB46 /* Frameworks */,
 			);
@@ -157,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				47FE6A1F20A24CCF003CBD9B /* BreakPoint.app */,
+				4705456B20DBF0C1006BEB4C /* BreakPointTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +248,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4705456A20DBF0C1006BEB4C /* BreakPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4705457220DBF0C1006BEB4C /* Build configuration list for PBXNativeTarget "BreakPointTests" */;
+			buildPhases = (
+				4705456720DBF0C1006BEB4C /* Sources */,
+				4705456820DBF0C1006BEB4C /* Frameworks */,
+				4705456920DBF0C1006BEB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4705457120DBF0C1006BEB4C /* PBXTargetDependency */,
+			);
+			name = BreakPointTests;
+			productName = BreakPointTests;
+			productReference = 4705456B20DBF0C1006BEB4C /* BreakPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		47FE6A1E20A24CCF003CBD9B /* BreakPoint */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47FE6A3320A24CCF003CBD9B /* Build configuration list for PBXNativeTarget "BreakPoint" */;
@@ -221,6 +296,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Henry Chukwu";
 				TargetAttributes = {
+					4705456A20DBF0C1006BEB4C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47FE6A1E20A24CCF003CBD9B;
+					};
 					47FE6A1E20A24CCF003CBD9B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -241,11 +321,19 @@
 			projectRoot = "";
 			targets = (
 				47FE6A1E20A24CCF003CBD9B /* BreakPoint */,
+				4705456A20DBF0C1006BEB4C /* BreakPointTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4705456920DBF0C1006BEB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47FE6A1D20A24CCF003CBD9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,6 +408,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4705456720DBF0C1006BEB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4705456E20DBF0C1006BEB4C /* BreakPointTests.swift in Sources */,
+				4705458320DBF299006BEB4C /* MessageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47FE6A1B20A24CCF003CBD9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +447,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4705457120DBF0C1006BEB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47FE6A1E20A24CCF003CBD9B /* BreakPoint */;
+			targetProxy = 4705457020DBF0C1006BEB4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		47FE6A2820A24CCF003CBD9B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -370,6 +475,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4705457320DBF0C1006BEB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A39EXWY942;
+				INFOPLIST_FILE = BreakPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.BreakPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakPoint.app/BreakPoint";
+			};
+			name = Debug;
+		};
+		4705457420DBF0C1006BEB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A39EXWY942;
+				INFOPLIST_FILE = BreakPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.BreakPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakPoint.app/BreakPoint";
+			};
+			name = Release;
+		};
 		47FE6A3120A24CCF003CBD9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -512,6 +649,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4705457220DBF0C1006BEB4C /* Build configuration list for PBXNativeTarget "BreakPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4705457320DBF0C1006BEB4C /* Debug */,
+				4705457420DBF0C1006BEB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		47FE6A1A20A24CCF003CBD9B /* Build configuration list for PBXProject "BreakPoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
