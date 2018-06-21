@@ -26,3 +26,4 @@ class Message {
         self._senderId = senderId
     }
 }
+

@@ -10,6 +10,11 @@
 		47050C3920D011130032453A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47050C3820D011130032453A /* Message.swift */; };
 		47050C3B20D164470032453A /* CreateGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47050C3A20D164470032453A /* CreateGroupsViewController.swift */; };
 		47050C3D20D16B460032453A /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47050C3C20D16B460032453A /* UserCell.swift */; };
+		4705455C20DB9944006BEB4C /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705455B20DB9944006BEB4C /* GroupFeedCell.swift */; };
+		4705455E20DB99BD006BEB4C /* GroupFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705455D20DB99BD006BEB4C /* GroupFeedViewController.swift */; };
+		4705456020DBB43D006BEB4C /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705455F20DBB43D006BEB4C /* UIViewControllerExt.swift */; };
+		4780045E20D962F10087FB6E /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780045D20D962F10087FB6E /* GroupCell.swift */; };
+		4780046020DAACCB0087FB6E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780045F20DAACCB0087FB6E /* Group.swift */; };
 		47E8718220AB426B00E79C21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47E8718120AB426B00E79C21 /* GoogleService-Info.plist */; };
 		47E8718420AB4A7100E79C21 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718320AB4A7100E79C21 /* DataService.swift */; };
 		47E8718820AF2B9800E79C21 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8718720AF2B9800E79C21 /* AuthViewController.swift */; };
@@ -34,6 +39,11 @@
 		47050C3820D011130032453A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		47050C3A20D164470032453A /* CreateGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsViewController.swift; sourceTree = "<group>"; };
 		47050C3C20D16B460032453A /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		4705455B20DB9944006BEB4C /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		4705455D20DB99BD006BEB4C /* GroupFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedViewController.swift; sourceTree = "<group>"; };
+		4705455F20DBB43D006BEB4C /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		4780045D20D962F10087FB6E /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		4780045F20DAACCB0087FB6E /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		47E8718120AB426B00E79C21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		47E8718320AB4A7100E79C21 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		47E8718720AF2B9800E79C21 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +98,7 @@
 				47FD591520CACA1A00DC7DBE /* MeViewController.swift */,
 				47FD591720CAF07700DC7DBE /* CreatePostViewController.swift */,
 				47050C3A20D164470032453A /* CreateGroupsViewController.swift */,
+				4705455D20DB99BD006BEB4C /* GroupFeedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +110,8 @@
 				47E8718D20AF3AAA00E79C21 /* ShadowView.swift */,
 				47FD591B20CE906A00DC7DBE /* FeedCell.swift */,
 				47050C3C20D16B460032453A /* UserCell.swift */,
+				4780045D20D962F10087FB6E /* GroupCell.swift */,
+				4705455B20DB9944006BEB4C /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -107,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				47050C3820D011130032453A /* Message.swift */,
+				4780045F20DAACCB0087FB6E /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				47FD591920CE8A2D00DC7DBE /* UIViewExt.swift */,
+				4705455F20DBB43D006BEB4C /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -312,11 +327,16 @@
 				47FD591A20CE8A2D00DC7DBE /* UIViewExt.swift in Sources */,
 				47FD591C20CE906A00DC7DBE /* FeedCell.swift in Sources */,
 				47FD591820CAF07700DC7DBE /* CreatePostViewController.swift in Sources */,
+				4780045E20D962F10087FB6E /* GroupCell.swift in Sources */,
 				47FD591620CACA1A00DC7DBE /* MeViewController.swift in Sources */,
+				4705456020DBB43D006BEB4C /* UIViewControllerExt.swift in Sources */,
 				47E8718A20AF34F100E79C21 /* LoginViewController.swift in Sources */,
+				4705455C20DB9944006BEB4C /* GroupFeedCell.swift in Sources */,
 				47FE6A2720A24CCF003CBD9B /* GroupsViewController.swift in Sources */,
+				4705455E20DB99BD006BEB4C /* GroupFeedViewController.swift in Sources */,
 				47FE6A2320A24CCF003CBD9B /* AppDelegate.swift in Sources */,
 				47E8719020AF692800E79C21 /* AuthService.swift in Sources */,
+				4780046020DAACCB0087FB6E /* Group.swift in Sources */,
 				47050C3D20D16B460032453A /* UserCell.swift in Sources */,
 				47E8718820AF2B9800E79C21 /* AuthViewController.swift in Sources */,
 				47E8718E20AF3AAA00E79C21 /* ShadowView.swift in Sources */,
